@@ -16,6 +16,7 @@ Keys:
 
 from __future__ import annotations
 
+import utils.session
 import time
 from pathlib import Path
 from typing import Tuple
@@ -56,7 +57,7 @@ def _safe_imshow(
 
 
 def main(
-    cam_index: int = 1,
+    cam_index: int = 2,
     out_size: Tuple[int, int] = (112, 112),
     mirror: bool = True,
 ) -> None:
