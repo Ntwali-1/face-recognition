@@ -1,5 +1,9 @@
 src/__pycache__/
 data/enroll/
 models/
-config.bat
 node_modules
+
+# Local environment files; keep sanitized examples trackable
+.env
+.env.*
+!.env.example
